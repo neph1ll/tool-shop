@@ -1,0 +1,100 @@
+.logo {
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+
+    
+}
+.navbar{
+    width: 518px;
+    height: 126px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar a {
+    color: #424436;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    font-family: Montserrat;
+    text-decoration: none;
+    
+ 
+}
+
+.header{
+    max-width: 1440px;
+    max-height: 128px;
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #DDDDDD;
+    padding: 30px 40px;
+    
+   
+}
+
+.header.dark {
+    background-color: #424436;
+
+    
+}
+
+.iconWrapper{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.heartCartWrapper{
+    display: flex;
+    align-items: center;
+}
+
+.active {
+    text-transform: uppercase;
+}
+
+@import '../../constants/media.scss';
+
+@media (#{$desktop}) {
+    .header {
+        width: 1000px;
+        height: 128px;
+    }
+}
+
+@media (#{$tablet}) {
+    .header {
+        width: 768px;
+        height: 110px;
+    }
+}
+
+@media (#{$mobileLarge}) {
+    .header {
+        width: 480px;
+        height: 68px;
+    }
+
+    .iconWrapper {
+        width: 44px;
+        height: 44px;
+    }
+}
+
+// @media (#{$mobile}) {
+//     .header {
+//         width: 360px;
+//         height: 68px;
+//     }
+
+//     .iconWrapper {
+//         width: 44px;
+//         height: 44px;
+//     }
+// }

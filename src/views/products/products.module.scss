@@ -1,0 +1,72 @@
+$mobile: 'max-width: 360px';
+$mobileLarge: 'max-width: 480px';
+$tablet: 'max-width: 768px';
+$desktop: 'max-width: 1000px';
+
+.wrapper {
+  display: flex;
+  // flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 1360px;
+  
+  gap: 32px;
+}
+
+.title {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 64px;
+}
+
+.filterSortWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 50px; /* Промежуток между элементами */
+  padding: 10px;
+  font-family: montserrat;
+  font-weight: semibold;
+  font-size: 20px;
+  margin-top:  20px;
+  margin-bottom: 20px;
+}
+
+.products {
+  margin-left: 40px;
+
+  @media (#{$desktop}) {
+    width: 960px;
+    height: 986px;
+  }
+
+  @media (#{$tablet}) {
+    width: 745px;
+    height: 1766px;
+  } 
+
+  @media (#{$mobileLarge}) {
+    width: 480px;
+    height: 1761px;
+  }
+
+}
+
+
+.priceInput {
+  width: 60px;
+  padding: 5px;
+  margin-left: 5px;
+  margin-right: 60px;
+}
+
+.checkbox {
+  margin-left: 10px;
+  margin-right: 60px;
+}
+
+.sortSelect {
+  margin-left: 10px;
+  padding: 5px;
+  width: 200px;
+  height: 36px;
+}

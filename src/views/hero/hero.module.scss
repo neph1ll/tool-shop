@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  background-image: url('/assets/images/hero-bg.png');
+  height: 600px;
+  width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding: 80px 40px;
+  // margin-top: 128px;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.4;
+}
+
+.wrapper {
+  position: absolute;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 110%;
+  color: white;
+  font-family: Montserrat, sans-serif;
+}
+
+.button {
+  background-color: #92A134;
+  width: 218px;
+  height: 58px;
+  margin-top: 40px;
+  font-family: Montserrat, sans-serif;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: #FFFFFF
+}
+
+@import '../../constants/media.scss';
+
+@media (#{$desktop}) {
+  .hero {
+    height: 476px;
+    width: 1000px;
+    ;
+  }
+
+  .title {
+    font-size: 90px;
+  }
+}
+
+@media (#{$tablet}) {
+  .hero {
+    height: 634px;
+    width: 768px;
+    margin-top: 110px;
+  }
+
+  .title {
+    font-size: 68px;
+  }
+
+}
+
+@media (#{$mobileLarge}) {
+  .hero {
+    height: 480px;
+    width: 600px;
+    margin-top: 68px;
+  }
+
+  .title {
+    font-size: 60px;
+  }
+
+  .button {
+    font-size: 18px;
+    width: 199px;
+    height: 47px;
+  }
+}
+
+// @media (#{$mobile}) {
+//   .hero {
+//     height: 480px;
+//     width: 360px;
+//     margin-top: 68px;
+//   }
+
+//   .title {
+//     font-size: 52px;
+//   }
+
+//   .button {
+//     font-size: 18px;
+//     width: 199px;
+//     height: 47px;
+//   }
+// }

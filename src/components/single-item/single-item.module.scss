@@ -1,0 +1,153 @@
+.wrapper {
+  width: 1360h;
+  height: 574px;
+  display: flex;
+  margin-left: 30px;
+  // margin-left: 30px;
+}
+
+.imgWrapper {
+  width: 780px;
+  height: 572px;
+  object-fit: cover;
+}
+
+.cardImage {
+  width: 780px;
+  height: 572px;
+  border-radius: 10px;
+}
+
+
+.title {
+  font-family: montserrat;
+  font-weight: bold;
+  font-size: 40px;
+  width: 548px;
+  height: hug;
+  margin-top: 0px;
+  margin-left: 30px;
+}
+
+.allInformationWrapper {
+  max-width: 548px;
+  height: 574px;
+  flex-wrap: wrap;
+}
+
+.counterWrapper {
+  display: flex;
+  width: 548px;
+  height: 58px;
+  margin-left: 30px;
+  margin-bottom: 32px;
+  
+}
+
+.counter {
+  display: flex;
+  width: 200px;
+  border-radius: 15px;
+  border: 1px solid #ddd
+  
+}
+
+.plus,
+.minus {
+  width: 58px;
+  height: 58px;
+  font-size: 40px;
+  cursor: pointer;
+  background-color: #FFFFFF;
+  border-radius:5px;
+  border: 1px solid #DDDDDD;
+  font-family: montserrat;
+
+}
+
+.count {
+  width: 96px;
+  height: 58px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: monteserrat;
+  font-weight: semi-bold;
+  font-size: 20px;
+  background-color: #FFFFFF;
+  font-family: montserrat;
+
+  // padding-top: 45px;
+}
+
+.addToCart {
+  width: 316px;
+  height: 58px;
+  background-color: #92A134;
+  border-radius: 6px;
+  margin-left: 32px;
+  font-family: montserrat;
+  font-weight: semi-bold;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  border-radius: none;
+}
+
+.description {
+  height: 306px;
+  word-wrap: break-word;
+  margin-top: 32px;
+  overflow-y: auto;
+  font-size: 16px;
+  /* Вертикальная прокрутка */
+  overflow-x: hidden;
+  /* Отключение горизонтальной прокрутки */
+}
+
+.txtDescription {
+  font-size: 16px;
+  margin-left: 32px;
+  margin-top: 16px;
+
+}
+
+
+
+.priceContainer {
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: 30px;
+}
+
+.currentPrice {
+  font-size: 64px;
+  color: #424436;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.originalPrice {
+  font-size: 40px;
+  font-weight: 500;
+  color: #a0a0a0;
+  text-decoration: line-through;
+  margin-right: 10px;
+  margin-top: 18px;
+  margin-left: 32px;
+}
+
+.discountBadge {
+  background-color: #F26D22;
+  color: white;
+  font-size: 20px;
+  font-weight: 600px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 40px ;
+  margin-left: 16px;
+}

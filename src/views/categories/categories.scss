@@ -1,0 +1,39 @@
+// li>img {
+//   width: 248px !important;
+// }
+
+$mobile: 'max-width: 360px';
+$mobileLarge: 'max-width: 480px';
+$tablet: 'max-width: 768px';
+$desktop: 'max-width: 1000px';
+
+.categories {
+
+
+
+
+  @media (#{$desktop}) {
+    width: 960px;
+    height: 630px;
+  }
+
+  @media (#{$tablet}) {
+    width: 960px;
+    height: 816px;
+  }
+
+  @media (#{$mobileLarge}) {
+    width: 320px;
+    height: 876px;
+    margin-left: 40px;
+    margin-right: 16px;
+  }
+
+  @media (#{$mobile}) {
+    width: 320px;
+    height: 876px;
+    margin-left: 40px;
+    margin-right: 16px;
+  }
+
+}

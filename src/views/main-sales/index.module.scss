@@ -1,0 +1,51 @@
+$mobile: 'max-width: 360px';
+$mobileLarge: 'max-width: 480px';
+$tablet: 'max-width: 768px';
+$desktop: 'max-width: 1000px';
+
+.title {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 64px;
+  margin-bottom: 40px;
+}
+
+.sales {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+
+  
+
+  
+  
+}
+
+.wrapper {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-left: 40px;
+  margin-right: 16px;
+  width: 1360px;
+
+  @media (#{$desktop}) {
+    width: 960px;
+    height: 500px;
+  } 
+
+  @media (#{$tablet}) {
+    width: 728px;
+    height: 858px;
+  }
+
+  @media (#{$mobileLarge}) {
+    width: 480px;
+    height: 790px;
+  }
+  
+  // @media (#{$mobile}) {
+  //   width: 360px;
+  //   height: 1534px;
+  // }
+}

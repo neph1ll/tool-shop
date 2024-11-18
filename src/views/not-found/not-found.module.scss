@@ -1,0 +1,40 @@
+.wrapper {
+  width: 100%;
+  height: 530px;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+}
+
+.notFound {
+  width: 760px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.numbers {
+  display: flex;
+}
+
+.num {
+  font-size: 200px;
+  font-weight: bold;
+  color: #92A134;
+}
+
+.btn {
+  width: 209px;
+  height: 58px;
+  background-color: #92A134;
+  border-radius: 6px;
+  margin-top: 32px;
+}
+
+.h2 {
+  margin-top: 32px;
+} 
+
+.p {
+  margin-top: 16px;
+}

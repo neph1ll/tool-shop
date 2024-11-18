@@ -1,0 +1,35 @@
+$font-family: 'Montserrat';
+$font-weight: 700;
+$font-size-title: 64px;
+$margin-left-main: 40px;
+$margin-bottom-title: 40px;
+$gap-wrapper: 32px;
+$max-width-wrapper: 1360px;
+
+.mainWrapper {
+  margin-left: $margin-left-main;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: $gap-wrapper;
+  max-width: $max-width-wrapper;
+}
+
+.products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.title {
+  font-family: $font-family;
+  font-weight: $font-weight;
+  font-size: $font-size-title;
+  margin-bottom: $margin-bottom-title;
+}

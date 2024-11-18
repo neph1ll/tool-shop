@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Monserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFFFF1;
+    
+    #root {
+        width: max-content;
+        margin: auto;
+    }
+}
